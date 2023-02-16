@@ -29,7 +29,7 @@ try:
         except:
             pass
 except KeyboardInterrupt:
-    print_data(total_file_size, status_code_data)
-    raise
+     log_parsing(total_file_size, status_code_data)
+     """raise"""
 else:
     print_data(total_file_size, status_code_data)
