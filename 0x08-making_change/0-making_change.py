@@ -36,4 +36,4 @@ def maximum(coins, waste_coins):
     for coin in coins:
         if coin > max_coin and coin not in waste_coins:
             max_coin = coin
-    return 
+    return max_coin
